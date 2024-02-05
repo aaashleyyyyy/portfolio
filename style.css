@@ -1,14 +1,15 @@
 /* General */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme&family=Poppins:wght@300;400;500;600&display=swap')
 
 *{
-  margin: 0;
+    margin: 0;
     padding: 0;
 }
 
 body{
     font-family: "Poppins", sans-serif;
+    background-color: #022b23;
 }
 
 html {
@@ -16,7 +17,12 @@ html {
 }
 
 p{
-    color: rgb(85,85,85);
+    color: rgb(255, 237, 210);
+}
+
+h1 {
+    color: rgb(255, 237, 210);
+    font-size: 2.5rem;
 }
 
 /*Transition  */
@@ -38,26 +44,31 @@ nav{
 
 .nav-links{
     gap: 2rem;
-    list-style:none;
+    list-style: none;
     font-size: 1.5rem;
 }
 
 a{
-    color: black;
+    color: rgb(255, 237, 210);
     text-decoration: none;
-    text-decoration-color: white;
+    /* text-decoration-color: rgb(239, 224, 201); */
+    ;
 }
 
 a:hover {
-    color: grey;
-    text-decoration: underline;
-    text-underline-offset: 1rem;
-    text-decoration-color: rgb(181, 181,181);
+    color: rgb(255, 187, 166);
+    text-decoration: none;
+    /* text-underline-offset: 1rem;
+    text-decoration-color: rgb(239, 224, 201); */
 
 }
 
 .logo{
-    font-size: 2rem;  
+    font-size: 2rem; 
+    color: rgb(255, 237, 210);
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .logo:hover{
@@ -84,7 +95,7 @@ a:hover {
 .hamburger-icon span{
     width: 100%;
     height: 2px;
-    background-color: black;
+    background-color: rgb(255, 237, 210);
     transition: all 0.3 ease-in-out;
 }
 
@@ -92,7 +103,7 @@ a:hover {
     position: absolute;
     top: 100%;
     right: 0;
-    background-color: white;
+    background-color: rgb(80, 108, 96);
     width: fit-content;
     max-height:0;
     overflow: hidden;
@@ -104,7 +115,7 @@ a:hover {
     padding: 10px;
     text-align: center;
     font-size: 1.5rem;
-    color: black;
+    color: rgb(255, 237, 210);
     text-decoration: none;
     transition: all 0.3 ease-in-out;
 }
@@ -160,28 +171,65 @@ section{
 
 .section__pic-container {
     display: flex;
-    height: 400px;
-    width: 400px;
-    margin: auto 0;
+    height: 100%;
+    width: 100%;
+    /* margin: auto 0; */
 }
 
 .section__text{
-    align-self: center;
-    text-align: center
+    align-items: center;
+    text-align: left;
+    display: block;
+
 }
 
-.section__text_p{
+.section-text-style{
+    font-size: 2rem;
+    white-space: nowrap;
+}
+
+.text-btn{
+    display: flex;
+}
+
+.second-line{
+    display: block;
+}
+
+.btn-section{
+    background-color: #022b23;
+    color: rgb(255, 237, 210);
+    border: none;
+    padding: 0.25rem;
+    text-decoration: none;
+
+}
+
+.btn-section:hover{
+    background-color: rgb(255, 187, 166);
+    color: rgb(80, 108, 96);
+    padding: 0.25rem;
+    text-decoration: none;
+}
+
+
+/* .second-line{
+    display: flex;
+} */
+
+/* .section__text_p{
     font-weight: 600;
 }
 
 .section__text__p1 {
     text-align: center;
+
 }
 
 .section__text__p2 {
     font-size: 1.75rem;
     margin-bottom: 1rem;
-}
+} */
 
 .title{
     font-size: 3rem;
@@ -203,6 +251,8 @@ section{
 }
 
 /* Buttons */
+
+text-btn style
 
 .btn-container{
     display: flex;

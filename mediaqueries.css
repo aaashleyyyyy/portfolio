@@ -8,6 +8,7 @@
     }
 }
 
+/* 
 
 @media screen and (max-width: 1200px){
     #desktop-nav{
@@ -86,7 +87,7 @@
     }
     .section__pic-container{
         width: auto;
-        height: 46vw;
+        height: auto;
         justify-content: center;
     }
     .section__text__p2{
@@ -102,4 +103,4 @@
 
 }
 
-
+ */
