@@ -12,10 +12,12 @@ body{
     font-family: "Questrial", sans-serif;
     /* font-weight: 400; */
     background-color: #022b23;
+    min-height: 100vh;
 }
 
 html {
     scroll-behavior: smooth;
+    height: 100%
 }
 
 p{
@@ -25,6 +27,7 @@ p{
 }
 
 h1 {
+    font-family: "Rozha One", serif;
     color: rgb(255, 237, 210);
     font-size: 2.5rem;
 }
@@ -70,7 +73,8 @@ a:hover {
 .logo{
     font-size: 2rem; 
     color: rgb(255, 237, 210);
-    font-family: "Rozha One", serif;    font-weight: 400;
+    font-family: "Rozha One", serif;
+        /* font-weight: 400; */
     font-style: normal;
     font-size: 3rem;
 }
@@ -153,10 +157,10 @@ a:hover {
 
 /* Sections */
 section{
-    padding-top: 4vh;
-    height: 96vh;
+    /* padding-top: 4vh; */
+    height: 100%;
     margin: 0 10rem;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     min-height: fit-content;
 }
 
@@ -278,11 +282,12 @@ section{
     font-size: 1.75rem;
     margin-bottom: 1rem;
 } */
-/* 
+ 
 .title{
     font-size: 3rem;
     text-align: center;
 }
+/*
 
 #socials-container {
     display: flex;
@@ -348,8 +353,45 @@ text-btn style
 /* About Section */
 
 #about{
-    position: relative;
+    /* position: relative; */
+    /* height: 96vh; */
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
 }
+.about-section-container{
+
+}
+
+.about-pic-cont{
+    display:flex;
+    justify-content: center;
+    margin-bottom: auto;
+    
+}
+
+.about-pic{
+    /* border-radius: 0rem; */
+    border: 0.35rem solid #506c60;
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.text-container{
+    display:flexbox;
+
+}
+
+.about-text{
+    line-height: 2rem;
+    font-size: 1.25rem;
+
+}
+
+
+
+
+
 
 .about-containers{
     gap: 2rem;
@@ -367,9 +409,6 @@ text-btn style
     display: flex;
 }
 
-.about-pic{
-    border-radius: 2rem;
-}
 
 .arrow{
     position: absolute;
@@ -386,17 +425,24 @@ text-btn style
     border-color: rgb(163,163,163);
     text-align: center;
 }
-
+/* 
 .section-container {
     gap: 4rem;
     height: 80%
-}
+} */
 
-/* .section__pic-container {
+
+.meet-container {
     height: 400px;
     width: 400px;
     margin: auto 0;
-} */
+}
+
+.text-container{
+    line-height: 1.5rem;
+    font-size: 1vh;
+
+}
 
 /* Experience */
 
@@ -506,14 +552,18 @@ article.icon{
 
 /* Footer */
 
-.footer{
-    height: 26vh;
-    margin: 0 1rem;
-}
+footer{
+    padding-top: 1rem;
 
-footer p{
-    text-align: center;
+    
 }
+/* .last-line{
+    text-align: center;
+} */
+
+/* footer p{
+    text-align: center;
+} */
 
 
 

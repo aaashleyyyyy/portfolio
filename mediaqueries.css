@@ -3,14 +3,14 @@
         height: 83vh;
         margin-bottom: 6rem;
     }
-    .about-containers {
+    /* .about-containers {
         flex-wrap: wrap;
-    }
+    } */
 }
 
 
 
-@media screen and (max-width: 1200px){
+/* @media screen and (max-width: 1200px){
     #desktop-nav{
         display:none;
     }
@@ -101,6 +101,6 @@
     }
 
 
-}
+} */
 
 
