@@ -158,10 +158,10 @@ a:hover {
 /* Sections */
 section{
     /* padding-top: 4vh; */
-    height: 100%;
+    /* height: 100%; */
     margin: 0 10rem;
     /* box-sizing: border-box; */
-    min-height: fit-content;
+    min-height: 100%;
 }
 
 .section-container{
@@ -175,52 +175,38 @@ section{
     justify-content: left;
     gap: 5rem;
     height: 80vh;
+    min-height: 100%;
 }
 
-.section__pic-container {
+.home-pic-cont {
     display: flex;
-    /* height: 100%;
-    width: 100%; */
     padding: 3rem;
-    /* margin: auto 0; */
 }
-
-/* .section__text{
-    align-items: center;
-    text-align: left;
-    display: block; */
-/* 
-} */
-
-
 
 .section-text-style{
     font-family: "Rozha One", serif;
     font-size: 2.5rem;
-    display: inline-block;
-    padding: 1vh;
-
-    /* white-space: nowrap; */
+    text-align: left;
 }
 
-.profile-text-cont{
-    margin-top: 4rem;
+.welcome-cont{
+    padding-top: 3.5rem;
 }
 
 .second-line-cont{
-    
+    padding-top: 1.5rem;
+ 
 }
 
-.text-highlight{
-    display: flex;
-    height: 4rem;
-
-
+.intro-cont{
+    margin-top: 2rem;
+    margin-right: 30%;
 }
 
-/* .second-line{
-    display: block;
-} */
+
+.home-info-container{
+    margin-top: 2rem;
+}
 
 .highlight{
     background-color: #022b23;
@@ -242,17 +228,43 @@ section{
     
 }
 
-.intro-cont{
-    display: inline-flex;
-    margin-top: 2.5rem;
-}
-
 .description{
     font-size: 1.25rem;
     line-height: 1.5rem;
 
-    /* line-height: 0em; */
 }
+
+
+
+
+
+
+/* .section__text{
+    align-items: center;
+    text-align: left;
+    display: block; */
+/* 
+} */
+
+
+
+
+/* 
+
+
+.text-highlight{
+    display: flex;
+    height: 4rem;
+
+
+} */
+
+/* .second-line{
+    display: block;
+} */
+
+
+
 
 
 /* .highlight1:hover {
