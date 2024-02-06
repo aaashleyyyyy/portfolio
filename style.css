@@ -170,6 +170,11 @@ section{
 
 /* Profile Section */
 
+.title{
+    font-size: 3rem;
+    text-align: center;
+}
+
 #profile {
     display: flex;
     justify-content: left;
@@ -212,17 +217,13 @@ section{
     background-color: #022b23;
     color: rgb(255, 237, 210);
     border: none;
-    /* padding: 1vh; */
     text-decoration: underline;
     text-decoration-color: #506c60;
-    /* padding-block: 2%;
-    padding-inline: 2%; */
 }
 
 .highlight:hover{
     background-color: #506c60;
     color: #ffbba6;
-    /* padding: 10px; */
     text-decoration: underline;
     text-decoration-color: rgb(255, 237, 210);
     
@@ -233,80 +234,6 @@ section{
     line-height: 1.5rem;
 
 }
-
-
-
-
-
-
-/* .section__text{
-    align-items: center;
-    text-align: left;
-    display: block; */
-/* 
-} */
-
-
-
-
-/* 
-
-
-.text-highlight{
-    display: flex;
-    height: 4rem;
-
-
-} */
-
-/* .second-line{
-    display: block;
-} */
-
-
-
-
-
-/* .highlight1:hover {
-    background-color: none;
-    color: #ffbba6;
-    text-decoration: underline;
-    text-decoration-color: rgb(255, 237, 210);
-    
-} */
-
-
-
-/* .second-line{
-    display: flex;
-} */
-
-/* .section__text_p{
-    font-weight: 600;
-}
-
-.section__text__p1 {
-    text-align: center;
-
-}
-
-.section__text__p2 {
-    font-size: 1.75rem;
-    margin-bottom: 1rem;
-} */
- 
-.title{
-    font-size: 3rem;
-    text-align: center;
-}
-/*
-
-#socials-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 1rem;
-    gap: 1rem;
-} */
 
 /* Icons */
 
@@ -371,9 +298,6 @@ text-btn style
     box-sizing: border-box;
     min-height: fit-content;
 }
-.about-section-container{
-
-}
 
 .about-pic-cont{
     display:flex;
@@ -389,72 +313,12 @@ text-btn style
     max-height: 50%;
 }
 
-.text-container{
-    display:flexbox;
-
-}
-
 .about-text{
     line-height: 2rem;
     font-size: 1.25rem;
 
 }
 
-
-
-
-
-
-.about-containers{
-    gap: 2rem;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-}
-
-.about-details-container {
-    justify-content: center;
-    flex-direction: column;
-}
-
-.about-containers,
-.about-details-container{
-    display: flex;
-}
-
-
-.arrow{
-    position: absolute;
-    right: -5rem;
-    bottom:2.5rem;
-}
-
-.details-container{
-    padding: 1.5rem;
-    flex: 1;
-    background: white;
-    border-radius: 2rem;
-    border: rgb(53,53,53) 0.1rem solid;
-    border-color: rgb(163,163,163);
-    text-align: center;
-}
-/* 
-.section-container {
-    gap: 4rem;
-    height: 80%
-} */
-
-
-.meet-container {
-    height: 400px;
-    width: 400px;
-    margin: auto 0;
-}
-
-.text-container{
-    line-height: 1.5rem;
-    font-size: 1vh;
-
-}
 
 /* Experience */
 
