@@ -6,6 +6,9 @@
     <title>My Portfolio</title>
     <link rel = "stylesheet" href="style.css" />
     <link rel = "stylesheet" href="mediaqueries.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&family=Rozha+One&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav id = "desktop-nav">
@@ -39,315 +42,29 @@
         <div class = "section__pic-container">
             <img src ="./assets/portfolio-home-doodle.png" alt = "Sketch of Ashley">
         </div>
-        <div class = "section__text">
+        <div class = "profile-text-cont">
             <p class="section-text-style"> Welcome to my little corner of the internet!</p>
-            <br>
+            <!-- <br>
+            <br>-->
+            <!-- <p class="section-text-style"> My name is Ashley Pun and </p>  -->
             <div class="second-line-cont">
-                <div class = "text-btn">
-                    <p class = "section-text-style">I</p>
-                    <button class= "btn-section section-text-style" onClick = "location.href = 'projects.html'">code</button>
-                    <p class = "section-text-style">,</p>
-                    <button class="btn-section section-text-style" onClick = "location.href = 'https://medium.com/ashleys-book-club'">read</button>
-                    <p class = "section-text-style">&</p>
-                    <button class="btn-section section-text-style" onClick = "location.href = 'https://www.instagram.com/ashleypun_/'">photograph</button>
+                <div class = "text-highlight">
+                    <p class = "section-text-style">I </p>
+                    <button class= "highlight section-text-style" onClick = "location.href = 'projects.html'">code </button>
+                    <p class = "section-text-style">, </p>
+                    <button class="highlight section-text-style" onClick = "location.href = 'https://medium.com/ashleys-book-club'">read </button>
+                    <p class = "section-text-style">& </p>
+                    <button class="highlight section-text-style" onClick = "location.href = 'https://www.instagram.com/ashleypun_/'">photograph</button>
+                    <p class = "section-text-style">.</p>
+                </div>
             </div>
-
-
-
-            <!-- <h1 class = "title">John Doe</h1> -->
-            <!-- <p class = "section__text__p2">I</p>
-            <div class = "text-btn">
-                <button class="word" onClick = "location.href = 'projects.html'">code</button>
-                <button class="word" onClick = "location.href = 'https://medium.com/ashleys-book-club'">read</button>
-                <button class="word" onClick = "location.href = 'https://www.instagram.com/ashleypun_/'">photograph</button> -->
-            </div>
-
-            <!-- <div class = "btn-container">
-                <button class = "btn btn-color-2" onClick = "window.open('./assets/resume-example.pdf')">Download CV</button>
-                <button class = "btn btn-color-1" onClick = "location.href ='./#contact'">Contact Info</button>
-            </div>
-            <div id = "socials-container">
-                <img src = "./assets/linkedin.png" alt = "My LinkedIn profile" class = "icon" onclick = "location.href = 'https://www.linkedin.com/in/ashley-pun/'">
-                <img src = "./assets/github.png" alt = "My Github profile" class = "icon" onclick = "location.href = 'https://github.com/aaashleyyyyy'">
-            </div> -->
+            <div class = "intro-cont">
+            <p class = "description">My name is <button class="description highlight" onClick = "location.href = 'about.html'">Ashley</button> and I'm a full stack developer based in the San Francisco Bay Area. Check out some of my work<button class="description highlight" onClick = "location.href = 'projects.html'">here</button>.</p>
+        
+        </div>
         </div>
     </section>
-    <!-- <section id ="about">
-        <p class="section__text__p1">Get to Know More</p>
-        <h1 class="title">About Me</h1>
-        <div class="section-container">
-            <div class="section__pic-container">
-                <img 
-                src = "./assets/about-pic.png" 
-                alt="Profile Picture" 
-                class ="about-pic"/>
-            </div>
-        <div class = "about-details-container">
-            <div class="about-containers">
-                <div class = "details-container">
-                    <img 
-                    src="./assets/experience.png" 
-                    alt = "experience icon" 
-                    class="icon"/>
-                    <h3>Experience</h3>
-                    <p>2+ years <br>Frontend Development</p>
-                </div>
-                <div class="details-container">
-                    <img 
-                    src="./assets/education.png" 
-                    alt = "Education Icon" 
-                    class="icon"/>
-                    <h3>Education</h3>
-                    <p>Bachelors Degree</p>
-                </div>
-            </div>
-            <div class="text-container">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Delectus ratione placeat minima similique sapiente sequi 
-                    incidunt hic velit. Cumque recusandae aperiam consectetur 
-                    nisi accusamus voluptatibus, quas fugiat similique 
-                    necessitatibus voluptatum atque, praesentium molestiae 
-                    inventore nihil odit adipisci magnam sit doloribus, iusto 
-                    illum. Eaque voluptatum commodi harum assumenda iste dolor 
-                    impedit!</p>
-            </div>
-        </div>
-        </div>
-        <img 
-        src ="./assets/arrow.png" 
-        alt = "arrow icon" 
-        class= "icon arrow" 
-        onClick="location.href='./experience'"/>
-    </section> -->
-    <!-- <section id ="experience">
-        <p class ="section__text__p1">Explore My</p>
-        <h1 class = "title">Experience</h1>
-        <div class = "experience-details-container">
-            <div class = "about-containers">
-                <div class="details-container">
-                    <h2 class = "experience-sub-title">Frontend Development</h2>
-                    <div class = "article-container">
-                        <article>
-                            <img 
-                            src = "./assets/checkmark.png" 
-                            alt = "Experience icon" 
-                            class = "icon"/>
-                            <div>
-                                <h3>HTML</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img 
-                            src = "./assets/checkmark.png" 
-                            alt = "Experience icon" 
-                            class = "icon"/>
-                            <div>
-                                <h3>CSS</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img 
-                            src = "./assets/checkmark.png" 
-                            alt = "Experience icon" 
-                            class = "icon"/>
-                            <div>
-                                <h3>SASS</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img 
-                            src = "./assets/checkmark.png" 
-                            alt = "Experience icon" 
-                            class = "icon"/>
-                            <div>
-                                <h3>JavaScript</h3>
-                                <p>Basic</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img 
-                            src = "./assets/checkmark.png" 
-                            alt = "Experience icon" 
-                            class = "icon"/>
-                            <div>
-                                <h3>TypeScript</h3>
-                                <p>Basic</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img 
-                            src = "./assets/checkmark.png" 
-                            alt = "Experience icon" 
-                            class = "icon"/>
-                            <div>
-                                <h3>MaterialUI</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                    </div>
-                </div>
-                <div class="details-container">
-                    <h2 class = "experience-sub-title">Backend Development</h2>
-                    <div class = "article-container">
-                        <article>
-                            <img 
-                            src = "./assets/checkmark.png" 
-                            alt = "Experience icon" 
-                            class = "icon"/>
-                            <div>
-                                <h3>PostgresSQL</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img 
-                            src = "./assets/checkmark.png" 
-                            alt = "Experience icon" 
-                            class = "icon"/>
-                            <div>
-                                <h3>NodeJS</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img 
-                            src = "./assets/checkmark.png" 
-                            alt = "Experience icon" 
-                            class = "icon"/>
-                            <div>
-                                <h3>Express.js</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img 
-                            src = "./assets/checkmark.png" 
-                            alt = "Experience icon" 
-                            class = "icon"/>
-                            <div>
-                                <h3>Git</h3>
-                                <p>Basic</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img 
-                            src = "./assets/checkmark.png" 
-                            alt = "Experience icon" 
-                            class = "icon"/>
-                            <div>
-                                <h3>TypeScript</h3>
-                                <p>Basic</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img 
-                            src = "./assets/checkmark.png" 
-                            alt = "Experience icon" 
-                            class = "icon"/>
-                            <div>
-                                <h3>MaterialUI</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <img 
-            src ="./assets/arrow.png" 
-            alt = "arrow icon" 
-            class= "icon arrow" 
-            onClick="location.href='./projects'"/>
-    </section> -->
-    <!-- <section id = "projects">
-        <p class = "section__text__p1">Browse My Recent</p>
-        <h1 class = "title">Projects</h1>
-        <div class = "experience-details-container">
-            <div class="about-containers">
-            <div class = "details-container color-container">
-                <div class = "article-container">
-                    <img 
-                    src="./assets/project-1.png" 
-                    alt = "Project 1" 
-                    class = "project-img">
-                </div>
-                <h2 class = "expeerience-sub-title project-title">Project One</h2>
-                <div class = "btn-container">
-                    <button class="btn btn-color-2 project-btn" onClick="location.href = 'https://github.com/'">
-                        Github
-                    </button>
-                    <button class="btn btn-color-2 project-btn" onClick="location.href = 'https://github.com/'">
-                        Live Demo
-                    </button>
-                </div>
-            </div>
-            <div class = "details-container color-container">
-                <div class = "article-container">
-                    <img 
-                    src="./assets/project-2.png" 
-                    alt = "Project 2" 
-                    class = "project-img">
-                </div>
-                <h2 class = "expeerience-sub-title project-title">Project Two</h2>
-                <div class = "btn-container">
-                    <button class="btn btn-color-2 project-btn" onClick="location.href = 'https://github.com/'">
-                        Github
-                    </button>
-                    <button class="btn btn-color-2 project-btn" onClick="location.href = 'https://github.com/'">
-                        Live Demo
-                    </button>
-                </div>
-            </div>
-            <div class = "details-container color-container">
-                <div class = "article-container">
-                    <img 
-                    src="./assets/project-3.png" 
-                    alt = "Project 3" 
-                    class = "project-img">
-                </div>
-                <h2 class = "expeerience-sub-title project-title">Project Three</h2>
-                <div class = "btn-container">
-                    <button class="btn btn-color-2 project-btn" onClick="location.href = 'https://github.com/'">
-                        Github
-                    </button>
-                    <button class="btn btn-color-2 project-btn" onClick="location.href = 'https://github.com/'">
-                        Live Demo
-                    </button>
-                </div>
-            </div>
-        </div>
-        </div>
-        <img 
-            src ="./assets/arrow.png" 
-            alt = "arrow icon" 
-            class= "icon arrow" 
-            onClick="location.href='./projects'"/>
-    </section> -->
-    <!-- <section id = "contact">
-        <p class = "section__text__p1">Get in Touch</p>
-        <h1 class = "title">Contact Me</h1>
-        <div class = "contact-info-upper-container">
-            <div class = "contact-info-container">
-                <img 
-                src="./assets/email.png"
-                alt = "Email Icon"
-                class = "icon contact-icon email-icon">
-                <p><a href = mailto:ashleypun@berkeley.edu>ashleypun@berkeley.edu</a></p>
-            </div>
-            <div class = "contact-info-container">
-                <img 
-                src="./assets/linkedin.png"
-                alt = "LinkedIn Icon"
-                class = "icon contact-icon">
-                <p><a href = "https://www.linkedin.com/in/ashley-pun/">LinkedIn</a></p>
-            </div>
-        </div>
-    </section> -->
-    <!-- <footer>
-        <nav>
+        <!-- <nav>
             <div class = "nav-links-container">
                 <ul class="nav-links">
                     <li><a href = "#about">About</a></li>
@@ -356,9 +73,10 @@
                     <li><a href = "#contact">Contact</a></li>
                 </ul>
             </div>
-        </nav>
-        <p>Copyright &#169; 2024 Ashley Pun. All Rights Reserved.</p>
-    </footer> -->
+        </nav> -->
+    <footer>
+        <p>&#169; 2024 Ashley Pun</p>
+    </footer>
     <script src = "script.js"></script>
 </body>
 </html>
