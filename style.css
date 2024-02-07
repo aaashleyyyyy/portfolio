@@ -422,25 +422,35 @@ form{
     font-size: 1.25rem;
 }
 
-/* button {
-    background-color: rgb(255, 237, 210);
-    color: #022b23;
-    border: none;
-    border-radius: 30px;
-    font-family: "Questrial", sans-serif;
-    padding:0.75rem;
-    font-size: 1.25rem;
+/* Projects */
+
+.proj-cont{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.proj-style{
+    border: 0.35rem solid #506c60;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.proj{
+    max-width: 40vw;
+    max-height: 50vh;
+    
+}
+/* .proj-2 {
+    max-width: 20vh;
+    max-height: 30vh;
+}
+
+.proj-2 {
+    max-width: 20vh;
+    max-height: 30vh;
 } */
 
-/* button:hover{
-    background-color: #ffbba6;
-    color:#022b23;
-    border:none;
-    border-radius: 30px;
-    font-family: "Questrial", sans-serif;
-    padding:0.75rem;
-    font-size: 1.25rem;
-} */
 
 /* Footer */
 
