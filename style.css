@@ -252,11 +252,15 @@ section{
     min-height: fit-content;
 }
 
+.section-container{
+    width: 100%;
+}
+
 .about-pic-cont{
     display:flex;
     justify-content: center;
     margin-bottom: auto;
-    
+    /* width: 40%; */
 }
 
 .about-pic{
@@ -269,8 +273,13 @@ section{
 .about-text{
     line-height: 2rem;
     font-size: 1.25rem;
-
 }
+
+.text-container{
+    padding-bottom: 3rem;
+    /* width: 60%; */
+}
+
 
 /* Contact */
 
@@ -450,6 +459,48 @@ form{
     max-width: 20vh;
     max-height: 30vh;
 } */
+
+#skills{
+
+}
+.skills{
+    display:inline;
+}
+
+.lang-cont{
+    display:inline;
+}
+
+.skill-style{
+    font-size: 1.5rem;
+    margin-bottom:0.25rem;
+}
+
+.sub-skill-cont{
+    display: flex;
+    margin-bottom: 1rem;
+
+}
+.sub-skill-style{
+    background-color: #506c60;
+    /* color: #ffbba6; */
+    border-radius: 30px;
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin:0.5rem;
+    font-size: 1.25rem;
+}
+
+.lib-cont{
+
+}
+.other-cont{
+
+}
+.lang2-cont{
+    
+}
+
 
 
 /* Footer */
