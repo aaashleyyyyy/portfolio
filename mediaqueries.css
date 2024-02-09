@@ -3,13 +3,13 @@
         height: 83vh;
         margin-bottom: 6rem;
     }
-    /* .about-containers {
+    .about-containers {
         flex-wrap: wrap;
-    } */
+    }
 }
 
 
-/* 
+
 @media screen and (max-width: 1200px){
     #desktop-nav{
         display:none;
@@ -46,7 +46,76 @@
 }
 
 @media screen and (max-width: 600px){
-    #contact,
+    .logo{
+        font-size: 2rem;
+    }
+    .home-photo{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    img{
+        width: 45vw;
+    }
+
+    .home-pic-cont{
+        padding: 0;
+    }
+    .home-info-container{
+        margin-top: 0;
+        padding-bottom: 2rem;
+    }
+    .welcome-cont{
+        padding-top:0;
+    }
+    .section-text-style{
+        font-size: 2rem;
+    }
+    .description{
+        font-size: 1.2rem;
+    }
+
+    .title{
+        font-size: 2rem;
+    }
+    #about{
+        margin: 0rem;
+    }
+    .text-container{
+        padding-top: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .socials-container{
+        display:block;
+    }
+
+    .form-name{
+        width:85vw;
+    }
+
+    .form-email{
+        width:85vw;
+    }
+
+    .form-message{
+        width:85vw;
+    }
+
+    .contact-submit{
+        width:45vw;
+    }
+
+    .form-cont{
+        padding-bottom:2rem;
+    }
+
+    /* need to do projects still for iphone se */
+
+
+
+
+    /* #contact,
     footer{
         height:40vh;
     }
@@ -54,6 +123,7 @@
         height: 83vh;
         margin-bottom:0;
     }
+
     article{
         font-size: 1rem;
     }
@@ -78,7 +148,7 @@
         font-size: 1.25rem;
     }
     .logo{
-        font-size: 1.25rem;
+        font-size: 1.8rem;
     }
     .nav-links{
         flex-direction: column;
@@ -98,9 +168,9 @@
     }
     .text-container{
         text-align: justify;
-    }
+    } */
 
 
-}  */
+} 
 
 

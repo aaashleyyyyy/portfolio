@@ -303,10 +303,10 @@ section{
 
 }
 
-.form-cont{
+/* .form-cont{
     margin-bottom: auto;
     padding:1rem;
-}
+} */
 
 .s-email{
     display: flex;
@@ -465,6 +465,7 @@ form{
 }
 .skills{
     display:inline;
+    padding-bottom: 3rem;
 }
 
 .lang-cont{
