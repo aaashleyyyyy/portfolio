@@ -62,6 +62,10 @@
     .about-pic{
         margin-bottom: 2rem;
     }
+    .sub-skill-cont{
+        flex-wrap: wrap;
+        
+    }
 }
 
 
@@ -145,10 +149,7 @@
         padding-right: 20vw;
     }
     
-    .sub-skill-cont{
-        flex-wrap: wrap;
-        
-    }
+    
 
 
 
