@@ -75,6 +75,7 @@
 @media screen and (max-width: 600px){
     #profile{
         display: block;
+        margin:0;
     }
     .logo{
         font-size: 2rem;
