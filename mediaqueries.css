@@ -1,6 +1,6 @@
 @media screen and (max-width: 1400px){
     #profile{
-        height: 83vh;
+        height: 60vh;
         margin-bottom: 6rem;
     }
     .about-containers {
@@ -23,10 +23,10 @@
     #profile{
         margin:5rem;
     }
-    .home-photo{
+    /* .home-photo{
         width: 30vw;
         height: fit-content;
-    }
+    } */
     .home-pic-cont{
         padding: 0;
     }
@@ -80,10 +80,10 @@
     .logo{
         font-size: 2rem;
     }
-    .home-photo{
+    /* .home-photo{
         margin-left: auto;
         margin-right: auto;
-    }
+    } */
 
     img{
         width: 45vw;
@@ -91,6 +91,8 @@
 
     .home-pic-cont{
         padding: 0;
+        justify-content: center;
+
     }
     .home-info-container{
         margin-top: 0;

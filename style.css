@@ -182,6 +182,7 @@ section{
 .home-pic-cont {
     display: flex;
     padding: 3rem;
+    object-fit: fill;
 }
 
 .section-text-style{
