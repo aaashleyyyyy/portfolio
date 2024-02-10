@@ -17,16 +17,24 @@
     #hamburger-nav{
         display:flex;
     }
-    #experience, 
-    .experience-details-container{
-        margin-top: 2rem;
-    }
-    #profile, 
     .section-container{
         display: block;
     }
-    .arrow{
-        display: none;
+    #profile{
+        margin:5rem;
+    }
+    .home-photo{
+        width: 30vw;
+        height: fit-content;
+    }
+    .home-pic-cont{
+        padding: 0;
+    }
+    .home-info-container{
+        margin-top: 0;
+    }
+    .welcome-cont{
+        padding-top:0;
     }
     section, 
     .section-container{
@@ -42,10 +50,28 @@
     }
     .about-containers {
         margin-top: 0;
+    } 
+    .proj-cont {
+        display: inline-block;
+        padding-left: 30vw;
+        padding-right: 30vw;
+    }
+    .proj-style{
+        margin-bottom: 3vh;
+    }
+    .about-pic{
+        margin-bottom: 2rem;
     }
 }
 
+
+
+
+
 @media screen and (max-width: 600px){
+    #profile{
+        display: block;
+    }
     .logo{
         font-size: 2rem;
     }
@@ -81,6 +107,10 @@
     #about{
         margin: 0rem;
     }
+
+    .about-pic{
+        margin-bottom: 0;
+    }
     .text-container{
         padding-top: 2rem;
         margin-left: 1rem;
@@ -110,7 +140,16 @@
         padding-bottom:2rem;
     }
 
-    /* need to do projects still for iphone se */
+    .proj-cont {
+        padding-left: 20vw;
+        padding-right: 20vw;
+    }
+    
+    .sub-skill-cont{
+        flex-wrap: wrap;
+        
+    }
+
 
 
 
