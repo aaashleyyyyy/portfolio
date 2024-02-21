@@ -77,6 +77,11 @@
         display: block;
         margin:0;
     }
+    
+    .profile-cont{
+        display: inline;
+    }
+
     .logo{
         font-size: 2rem;
     }
