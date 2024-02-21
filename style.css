@@ -221,6 +221,7 @@ section{
     border: none;
     text-decoration: underline;
     text-decoration-color: #506c60;
+    cursor: pointer;
 }
 
 .highlight:hover{
@@ -228,7 +229,7 @@ section{
     color: #ffbba6;
     text-decoration: underline;
     text-decoration-color: rgb(255, 237, 210);
-    
+    cursor: pointer;
 }
 
 .description{
@@ -240,7 +241,7 @@ section{
 /* Icons */
 
 .icon{
-    cursor: pointer;
+    /* cursor: pointer; */
     height: 2rem;
 }
 
@@ -413,6 +414,7 @@ form{
     font-family: "Questrial", sans-serif;
     padding:0.75rem;
     font-size: 1.25rem;
+    cursor: pointer;
 }
 
 .contact-submit:hover{
@@ -423,6 +425,7 @@ form{
     font-family: "Questrial", sans-serif;
     padding:0.75rem;
     font-size: 1.25rem;
+    cursor: pointer;
 }
 
 /* Projects */
@@ -440,9 +443,20 @@ form{
 }
 
 .proj{
-    max-width: 40vw;
-    max-height: 50vh;
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
     
+    /* object-fit: contain; */
+    
+}
+
+.coming-soon{
+    font-family: "Rozha One", serif;
+    color: #ffbba6;
+    font-size: 2.5rem;
+    margin:1em 1em;
+    text-align: center;
 }
 
 #skills{
@@ -474,6 +488,27 @@ form{
     padding: 0.5rem;
     margin:0.5rem;
     font-size: 1.25rem;
+}
+
+.exper-cont{
+    display: inline;
+
+}
+
+.exper-title-cont, .exper-desc{
+    text-align: center;
+}
+
+
+.exper-title{
+    font-family: "Rozha One", serif;
+    font-size: 2rem;
+
+}
+
+.exper-style{
+    font-size: 1.55rem;
+    padding: 0.75rem;
 }
 
 
