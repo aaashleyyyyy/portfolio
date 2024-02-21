@@ -73,6 +73,11 @@
 
 
 @media screen and (max-width: 600px){
+   
+    .page-cont{
+       min-height: 125vh;
+    }
+
     #profile{
         display: block;
         margin:0;
@@ -153,8 +158,8 @@
     }
 
     .proj-cont {
-        padding-left: 20vw;
-        padding-right: 20vw;
+        padding-left: 0vw;
+        padding-right: 0vw;
     }
     .exper-cont{
         display: inline;
