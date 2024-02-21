@@ -179,10 +179,15 @@ section{
     min-height: fit-content;
 }
 
+.profile-cont {
+    display: flex;
+}
+
 .home-pic-cont {
     display: flex;
     padding: 3rem;
     object-fit: fill;
+    /* width:50%; */
 }
 
 .section-text-style{
