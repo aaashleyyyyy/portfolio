@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashley Pun</title>
+    <link rel="icon" href="./assets/portfolio-favicon.png">
+    <link rel = "stylesheet" href="/style.css" />
+    <link rel = "stylesheet" href="/mediaqueries.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&family=Rozha+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class = 'page-cont'>
+    <nav id = "desktop-nav">
+        <div class="logo"><a href = "https://ashleypun.com/">Ashley Pun</a></div>
+        <div>
+            <ul class="nav-links">
+                <li><a href = "/about.html">About</a></li>
+                <li><a href = "/write.html">Blog</a></li>
+                <li><a href = "/projects.html">Projects</a></li>
+                <li><a href = "/assets/ashleypun-resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></li>
+                <li><a href = "/contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id = "hamburger-nav">
+        <div class="logo"><a href = "https://ashleypun.com/">Ashley Pun</a></div>
+        <div class = "hamburger-menu">
+        <div class = "hamburger-icon" onclick = "toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+        </div>
+        <div class = "menu-links">
+            <li><a href = "/about.html" onclick = "toggleMenu()">About</a></li>
+            <li><a href = "/write.html" onclick = "toggleMenu()">Blog</a></li>
+            <li><a href = "/projects.html" onclick = "toggleMenu()">Projects</a></li>
+            <li><a href = "./assets/ashleypun-resume.pdf" onclick = "toggleMenu()" target="_blank" rel="noopener noreferrer">Resume</a></li>
+            <li><a href = "/contact.html" onclick = "toggleMenu()">Contact</a></li>
+        </div>
+    </div>
+    </nav>
+    <div class= "blog-nav-cont">
+        <hr class = "blog-line">
+        <div class="blog-nav-text-cont">
+            <a class = "blog-nav-text" href="reading.html">Reading</a>
+            <a class = "blog-nav-text" href="/projects.html">Projects</a>
+        </div>
+        <hr class = "blog-line">
+    </div>
+    <h1 class = "title">Title</h1>

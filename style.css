@@ -1,3 +1,11 @@
+/* colors
+pink: #ffbba6
+dark-green: #022b23
+light-green: #506c60
+text-tan: #ffedd3
+pic-tan: #efe0c9 */
+
+
 /* General */
 
 @import url('https://fonts.googleapis.com/css2?family=BioRhyme&family=Poppins:wght@300;400;500;600&display=swap')
@@ -431,7 +439,7 @@ form{
 /* Projects */
 
 .proj-cont{
-    display: flex;
+    display: inline;
     justify-content: center;
     
 }
@@ -443,13 +451,42 @@ form{
 }
 
 .proj{
-    width: 300px;
-    height: 300px;
+    width: 180px;
+    height: 180px;
     cursor: pointer;
     
     /* object-fit: contain; */
     
 }
+
+.proj-cont-one{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+
+}
+.proj-text{
+    font-size: 1.35rem;
+}
+.proj-title{
+    font-size: 2rem;
+    font-family: "Rozha One", serif;
+    color: #ffedd3;
+}
+
+.proj-text-cont{
+    display: inline;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 50%;
+}
+
+.technovation-logo{
+    width: 160px;
+    height:160px;
+}
+
+
 
 .coming-soon{
     font-family: "Rozha One", serif;
@@ -538,6 +575,39 @@ form{
     left:0; */
     
 }
+
+/* blog */
+
+.blog-line{
+    width: 80%;
+    color:rgb(255, 237, 210);
+}
+
+.blog-nav-text-cont{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.blog-nav-text{
+    font-size: 1.25rem;
+    cursor:pointer;
+}
+
+.blog-text{
+    font-size: 1.5rem;
+    text-align: left;
+    line-height: 1.5;
+    padding-left: 15%;
+    padding-right: 15%;
+
+}
+.blog-body{
+    display: inline;
+}
+
+
+
 
 
 
