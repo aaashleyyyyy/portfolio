@@ -8,12 +8,25 @@ pic-tan: #efe0c9 */
 
 /* General */
 
-@import url('https://fonts.googleapis.com/css2?family=BioRhyme&family=Poppins:wght@300;400;500;600&display=swap')
+/* @import url('https://fonts.googleapis.com/css2?family=BioRhyme&family=Poppins:wght@300;400;500;600&display=swap'); */
 
-*{
+/* *{
     margin: 0;
     padding: 0;
+} */
+
+h1 {
+    font-family: "Rozha One", serif;
+    color: rgb(255, 237, 210);
+    font-size: 2.5rem;
 }
+
+p{
+    font-family: "Questrial", sans-serif;
+    color: rgb(255, 237, 210);
+    margin: 0;   
+}
+
 
 body{
     font-family: "Questrial", sans-serif;
@@ -27,17 +40,8 @@ html {
     height: 100%
 }
 
-p{
-    font-family: "Questrial", sans-serif;
-    color: rgb(255, 237, 210);
-    margin: 0;   
-}
 
-h1 {
-    font-family: "Rozha One", serif;
-    color: rgb(255, 237, 210);
-    font-size: 2.5rem;
-}
+
 
 /*Transition  */
 a {
@@ -445,7 +449,6 @@ form{
 }
 
 .proj-style{
-    border: 0.35rem solid #506c60;
     margin-right: 2rem;
     margin-left: 2rem;
 }
@@ -551,6 +554,9 @@ form{
 /* .content-wrap{
     padding-bottom: 2.5rem;
 } */
+.footer{
+    color:#ffedd3;
+}
 
 .page-cont{
     position: relative;
@@ -595,16 +601,60 @@ form{
 }
 
 .blog-text{
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     text-align: left;
     line-height: 1.5;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 20%;
+    padding-right: 20%;
 
 }
 .blog-body{
     display: inline;
 }
+
+.searchBar{
+    visibility:hidden;
+    transform: translateY(-100px);
+    background-color: #ffedd3;
+    padding: 4px 0;
+    position: absolute;
+    left: 0;
+    right:0;
+}
+
+.searchBar.open{
+    transform: translateY(0);
+    transition: transform 0.1s;
+}
+
+.searchBar input{
+    margin: 0;
+    padding: 0;
+}
+
+.searchClose{
+    position: absolute;
+    top:0;
+    right:0;
+    color: var(--gray-light);
+    padding: 15px;
+}
+
+/* admin panel */
+
+label[for='username']{
+    font-family: "Questrial", sans-serif;
+    color: rgb(255, 237, 210);
+    font-size: 1.25rem;
+}
+
+label[for='password']{
+    font-family: "Questrial", sans-serif;
+    color: rgb(255, 237, 210);
+    font-size: 1.25rem;
+}
+
+
 
 
 
